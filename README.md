@@ -36,13 +36,12 @@ This is a simple contact form backend built with Laravel. It supports sending me
 
 ## 📦 Installation
 
-1. **Clone the repository**
-
-1. Clone repo: `git clone https://github.com/your-username/contact-us-backend.git && cd contact-us-backend`
+1. Clone the repository: `git clone https://github.com/your-username/contact-us-backend.git && cd contact-us-backend`
 2. Install dependencies: `composer install`
-3. Copy `.env`: `cp .env.example .env`
-4. Edit `.env` dan sesuaikan konfigurasi DB dan Mailtrap (atau sesuaikan dengan smtp lainnya)
-5. Generate key: `php artisan key:generate`
-6. Jalankan migrasi: `php artisan migrate`
-7. (Opsional) Seed admin: `php artisan db:seed`
-8. Start server: `php artisan serve`
+3. Copy environment file: `cp .env.example .env`
+4. Edit `.env` and configure your database and Mailtrap (or other SMTP settings)
+5. Generate application key: `php artisan key:generate`
+6. Run database migrations: `php artisan migrate`
+7. Seed admin data: `php artisan db:seed`
+8. Start the development server: `php artisan serve`
+
