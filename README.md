@@ -18,7 +18,7 @@ This is a simple contact form backend built with Laravel. It supports sending me
 ## 🛠️ Tech Stack
 
 - PHP 8.x
-- Laravel 10.x
+- Laravel 12.x
 - MySQL / PostgreSQL
 - Mailtrap for email testing
 
@@ -41,3 +41,10 @@ This is a simple contact form backend built with Laravel. It supports sending me
 ```bash
 git clone https://github.com/your-username/contact-us-backend.git
 cd contact-us-backend
+
+composer install
+
+cp .env.example .env
+
+2. **Install dependencies**
+composer install
